@@ -1,0 +1,106 @@
+body {
+    background: #738dea;
+}
+
+.img {
+    animation: bass 1s;
+    width: 100%;
+    height: 400px;
+    transition: 5s;
+}
+.img:hover {
+    transform: scale(0.85);
+}
+
+@keyframes bass {
+    0% {
+        transform: translateY(90deg);
+    }
+
+    100% {
+        transform: translateY(90deg);
+    }
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    background: linear-gradient(#1135b8, #b5cd33);
+}
+li {
+    display: flex;
+    gap: 200px;
+    padding: 10px 0 10px 0;
+}
+
+a {
+    color: rgb(226, 217, 217);
+    gap: 40px;
+}
+
+.formul {
+    padding: 60px;
+}
+
+fieldset {
+    text-align: center;
+    width: 500px;
+    margin-left: 300px;
+    background: linear-gradient(#b5cd33, rgb(208, 15, 189));
+    transition: 6s;
+    height: 300px;
+}
+
+fieldset:active {
+    transform: scale(0.50);
+}
+
+.nomprenom {
+    display: flex;
+    gap: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+form{
+    padding-bottom: 10px;
+}
+
+.flier {
+    padding-top: 10px;
+
+}
+
+.naiss {
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.val {
+    padding-top: 30px;
+    transition: 6s
+}
+
+.val:hover {
+    transform: scale(0.50);
+}
+
+footer {
+    background: linear-gradient(#1135b8, #0cd75d);
+    padding: 10px 0 10px 0;
+}
+footer label{
+    margin-left: 550px;
+}
+
+.sexe {
+    margin-left: 70px;
+}
