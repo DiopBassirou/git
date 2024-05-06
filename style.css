@@ -93,10 +93,7 @@ form{
     transform: scale(0.50);
 }
 
-footer {
-    background: linear-gradient(#1135b8, #0cd75d);
-    padding: 10px 0 10px 0;
-}
+
 footer label{
     margin-left: 550px;
 }
